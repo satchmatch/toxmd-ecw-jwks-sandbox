@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToxMD eCW FHIR - Sandbox JWK Endpoint</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+      }
+      .header {
+        color: #0066cc;
+        border-bottom: 2px solid #0066cc;
+        padding-bottom: 10px;
+      }
+      .info-box {
+        background: #f0f8ff;
+        border: 1px solid #0066cc;
+        padding: 15px;
+        margin: 20px 0;
+        border-radius: 5px;
+      }
+      .endpoint {
+        font-family: monospace;
+        background: #f5f5f5;
+        padding: 5px;
+        border-radius: 3px;
+      }
+      .warning {
+        background: #fff3cd;
+        border: 1px solid #ffc107;
+        color: #856404;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>🧪 ToxMD eCW FHIR Integration</h1>
+      <h2>Sandbox/Development JWK Endpoint</h2>
+    </div>
+
+    <div class="info-box">
+      <h3>📍 JWK Endpoints</h3>
+      <p>
+        <strong>Standard Location:</strong>
+        <span class="endpoint">/.well-known/jwks.json</span>
+      </p>
+      <p>
+        <strong>Direct Access:</strong> <span class="endpoint">/jwks.json</span>
+      </p>
+    </div>
+
+    <div class="info-box">
+      <h3>🔑 Environment Details</h3>
+      <p><strong>Environment:</strong> Sandbox/Development</p>
+      <p>
+        <strong>Client ID:</strong>
+        <span class="endpoint"
+          >VXkxU7E5eQnhMPxQUxzu0nLDkSrlls687Co_ubE501Q</span
+        >
+      </p>
+      <p>
+        <strong>Key ID:</strong> <span class="endpoint">0c68ca9c94c70903</span>
+      </p>
+    </div>
+
+    <div class="info-box warning">
+      <h3>⚠️ Development Environment</h3>
+      <p>
+        This endpoint serves keys for eCW sandbox/development environment only.
+      </p>
+      <p>For production, use the production-specific JWK endpoint.</p>
+    </div>
+
+    <div class="info-box">
+      <h3>🔗 Quick Links</h3>
+      <p><a href="/.well-known/jwks.json">View JWK Set</a></p>
+      <p><a href="/jwks.json">View JWK Set (Direct)</a></p>
+    </div>
+  </body>
+</html>
