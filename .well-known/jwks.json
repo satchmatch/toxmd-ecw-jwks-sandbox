@@ -4,12 +4,10 @@
       "kty": "RSA",
       "alg": "RS384",
       "use": "sig",
-      "key_ops": [
-        "verify"
-      ],
+      "key_ops": ["verify"],
       "ext": true,
       "kid": "0c68ca9c94c70903",
-      "n": "sKueFvBXCdDfsrc7I50FdExJcZvpwRoQVMLq9ClRPiXUfwBC8w9NyUilUaRiZLqGj5-LuNSy3VJcmdiAa0QbEA-q3iy1QtngtM4_8yhriXVR1bIibsw0M2rhQP_hP_6SauY34bn0UGIIFPb37rRE70DU_BVpsVOEoZOPPnY1BRJhQJ6CDblKUaXFuLkpBHadbXPYze0rnln225T2OmSgsdU6EwhSeS0EUJrMMdDv0oSmaAa3QSOMU3QOGUY_eRVjMAuWI1WWCXsMKIqx7TgvepnCLsty85oZsuRAtX8riHU-Sbw2jtGqRm-L2hJJqTH3vDDU9eRHxN4lklfJWD9GSQ",
+      "n": "sKueHvBXCdDfst7I50FdExJcZvpwRoQVMLq9ClRPiXUfwBC8w9NyUilUaRiZLqGj5-LuNSy3VJcmdomAa0QbEA-q3iy1QtngNM4_8yhrieVR1bIibsw0M2rhQP_hP_6SauY34bn0UGII1Pb37rRE70DU_BVpsVOEoZOFPnY1BQJhQJ6CDbFKUaXFuLkpBHadbbPYzeo7nln226T2OmSgsdU6EwgSeSsUUJrMMdDv0oSmaAa3QSOcU3QOGUYfgVXMAuYI1WWCXsM6KJpE--nxBBt22oUyBl3QxgGjBAqq6W3TrHGhVNwEKJhCfrJ8aGCJ8YiQ5LkI_NkKMZfR71qTnQ",
       "e": "AQAB"
     }
   ]
